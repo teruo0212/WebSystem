@@ -17,7 +17,7 @@
 <title>教員新規登録</title>
 </head>
 <body>
-<form action="teacherinput.php" method="post">
+<form name="input_form" action="teacherentry.php" method="post">
 <table border="0">
 <div style="padding: 10px; margin-bottom: 10px; border: 1px solid #333333; border-radius: 10px;">
 入力フォーム
@@ -39,10 +39,12 @@
 <br>
 </div>
 </table>
+<input class="submit_b" name="teacherinput_send" type="submit" value="登録">
 </form>
 </table>
 <br>
-<input class="submit_b" type="submit" value="登録">
+
 <br>
+
 </body>
 </html>
